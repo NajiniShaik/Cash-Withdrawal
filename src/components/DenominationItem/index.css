@@ -1,0 +1,17 @@
+.btn-element {
+  color: #d4d2db;
+  width: 250px;
+  height: 40px;
+  background-color: #382f5a;
+  border: 1px solid hsl(0, 0%, 77%);
+  border-radius: 3px;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 768px) {
+  .btn-element {
+    width: 150px;
+  }
+}

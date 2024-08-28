@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailed-container {
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.account-container {
+  display: flex;
+  align-items: center;
+}
+
+.account-card {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 12px;
+  margin-right: 15px;
+}
+
+.letter {
+  color: #7c3aed;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.balance-card-title {
+  color: #585076;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.balance {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.in {
+  color: #585076;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+
+.title {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.instruction {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.btn-list {
+  list-style-type: none;
+  padding: 0px auto;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 15px;
+}
